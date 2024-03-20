@@ -35,10 +35,10 @@ O conjunto de substituição definido na matriz de criptografia consiste em pare
 ### Como usar:
 
 1. Abra o link:
-   
-    https://codificador-one-alura-jp.vercel.app/
+   https://github.com/joaumsud/decodificador_texto_challenge_alura
    
 2. Digite o texto que deseja criptografar no campo de entrada.
 3. Clique no botão "Criptografar" para converter o texto conforme as regras definidas.
 4. Clique no botão "Descriptografar" para reverter o texto criptografado de volta ao texto original.
 5. Para copiar o texto gerado, clique no botão "Copiar".
+   
