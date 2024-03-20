@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <title>Challenge 01 One T6</title>
+</head>
+<body>
+  <main>
+      <div  class="main_div_left">
+        <a href="https://www.alura.com.br/" target="_blank">
+          <img src="assets/images/logo-alura.svg"  class="main_div_img_logo" alt="Logo da Alura">
+        </a>
+      </div>
+
+      <div  class="main_div_textBar">
+          <textarea onkeyup="checkMessage(event)"  class="main_div_textBar_textArea" placeholder="Digite seu texto aqui"></textarea>
+
+          <div  class="main_div_textBar_buttons_alert">
+              <span>
+                  <img src="assets/images/warning.svg"  class="main_div_textBar_buttons_alert" alt="Ponto de exclamação">
+                  <p>Use apenas letras minúsculas e sem acento.</p>
+              </span>
+
+              <div  class="div_buttons">
+                  <button class="crypt" onclick="btnCrypt(), removeSidebar()">Criptografar</button>
+                  <button   class="decrypt"   onclick="btnDecrypt()" >Descriptografar</button>
+              </div>
+          </div>
+      </div>
+      <div  class="main_div_right">
+          <img src="assets/images/looking.svg"  class="main_div_right_image" alt="Mulher segurando lupa" >
+          <h2>Nenhuma mensagem encontrada</h2>
+          <p>Digite à esquerda um texto que você deseja criptografar ou descriptografar.</p>
+      </div>
+
+      <div  class="main_div_right_output"  style="display: none;">
+          <textarea class="main_div_right_output_text" id="textarea_output"></textarea>
+          <button onclick="copyText()"  class="copyText" id="copyText">Copiar</button>
+      </div>
+  </main>
+  <footer>
+      <p>Feito por <a href="https://www.linkedin.com/in/joao-paulo-lima-silva/" target="_blank">João Paulo de Lima Silva</a></p>
+  </footer>
+</body>
+<script src="assets/js/scripts.js"></script>
+</html>
