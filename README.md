@@ -34,8 +34,7 @@ O conjunto de substituição definido na matriz de criptografia consiste em pare
 
 ### Como usar:
 
-1. Abra o link:
-   https://github.com/joaumsud/decodificador_texto_challenge_alura
+1. Abra o link: https://joaumsud.github.io/decodificador_texto_challenge_alura/
    
 2. Digite o texto que deseja criptografar no campo de entrada.
 3. Clique no botão "Criptografar" para converter o texto conforme as regras definidas.
