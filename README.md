@@ -42,4 +42,3 @@ O conjunto de substituição definido na matriz de criptografia consiste em pare
 3. Clique no botão "Criptografar" para converter o texto conforme as regras definidas.
 4. Clique no botão "Descriptografar" para reverter o texto criptografado de volta ao texto original.
 5. Para copiar o texto gerado, clique no botão "Copiar".
-6. Para limpar o campo de saída, clique no botão "Limpar".
